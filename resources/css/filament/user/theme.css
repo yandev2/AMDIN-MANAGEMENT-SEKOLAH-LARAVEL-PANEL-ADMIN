@@ -1,0 +1,100 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/User/**/*';
+@source '../../../../resources/views/filament/user/**/*';
+
+
+.fi-logo{
+    @apply text-white;
+}
+
+.fi-topbar {
+    @apply bg-blue-600;
+}
+
+.fi-topbar-open-sidebar-btn{
+    @apply text-white;
+} 
+
+.fi-icon-btn{
+    @apply text-white;
+}
+
+.fi-global-search-field .fi-input-wrp{
+    @apply bg-white;
+}
+
+.dark .fi-global-search-field .fi-input-wrp{
+    @apply bg-white;
+}
+
+.fi-global-search-field .fi-icon{
+    @apply text-blue-600;
+}
+
+.fi-global-search-field .fi-input-wrp-content-ctn{
+     @apply text-white placeholder:fill-blue-50; 
+}
+
+.dark .fi-global-search-field .fi-icon{
+    @apply text-blue-600;
+}
+
+.dark .fi-global-search-field .fi-input-wrp-content-ctn{
+     @apply text-white placeholder:fill-stone-200; 
+}
+
+.fi-sidebar {
+    @apply bg-white;
+}
+
+.dark .fi-sidebar {
+    @apply bg-black;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn{
+   @apply bg-blue-600;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn span{
+    @apply text-white;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn svg{
+    @apply text-white;
+}
+
+.fi-wi-stats-overview-stat.stats-guru span{
+    @apply text-blue-600;
+}
+.fi-wi-stats-overview-stat.stats-guru svg{
+    @apply text-blue-600;
+}
+
+.fi-wi-stats-overview-stat.stats-dinas_luar span{
+    @apply text-purple-600;
+}
+.fi-wi-stats-overview-stat.stats-dinas_luar svg{
+     @apply text-purple-600;
+}
+
+.fi-wi-stats-overview-stat.stats-dinas_dalam span{
+    @apply text-yellow-600;
+}
+.fi-wi-stats-overview-stat.stats-dinas_dalam svg{
+    @apply text-yellow-600;
+}
+
+.fi-wi-stats-overview-stat.stats-active span{
+    @apply text-green-500;
+}
+.fi-wi-stats-overview-stat.stats-active svg{
+    @apply text-green-500;
+}
+
+.fi-wi-stats-overview-stat.stats-inactive span{
+    @apply text-red-600;
+}
+.fi-wi-stats-overview-stat.stats-inactive svg{
+    @apply text-red-600;
+}
